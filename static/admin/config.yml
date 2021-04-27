@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: gwu205/defmc
-  branch: master
+  branch: main
   media_folder: "images/uploads"
   collections:
   - name: "news"
