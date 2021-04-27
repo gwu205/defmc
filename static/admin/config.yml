@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: gwu205/defmc
+  branch: master
+  media_folder: "images/uploads"
+  collections:
+  - name: "news"
+    label: "news"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "news"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
