@@ -2,8 +2,9 @@ backend:
   name: github
   repo: gwu205/defmc
   branch: main
-  media_folder: "images/uploads"
-  collections:
+media_folder: "images/uploads"
+publish_mode: editorial_workflow
+collections:
   - name: "news"
     label: "news"
     folder: "content/news"
