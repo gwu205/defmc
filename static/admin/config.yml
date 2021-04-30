@@ -1,12 +1,12 @@
 backend:
-  name: github
+  name: git-gateway
   repo: gwu205/defmc
   branch: main
 media_folder: "images/uploads"
 publish_mode: editorial_workflow
 collections:
   - name: "news"
-    label: "news"
+    label: "News Post"
     folder: "content/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
