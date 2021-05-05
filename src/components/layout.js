@@ -28,7 +28,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div className="bg-primary">
+      <div>
         <header>{header}</header>
         <Header></Header>
         <main>{children}</main>
