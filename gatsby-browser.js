@@ -10,6 +10,10 @@ import "tailwindcss/base.css"
 import "tailwindcss/components.css"
 import "tailwindcss/utilities.css"
 
+// Import custom fonts
+import "@fontsource/dm-sans"
+
 // Markdown formatting, uses Tailwind @apply primitive to apply Tailwind's utility classes to
 // elements created by the Markdown parser
 import "./src/markdown.css"
+import "./src/global.css"
