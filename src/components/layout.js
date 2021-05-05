@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Header from "./header"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -27,8 +28,9 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div className="max-w-2xl mx-auto px-5 py-10">
+      <div className="bg-primary">
         <header>{header}</header>
+        <Header></Header>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
