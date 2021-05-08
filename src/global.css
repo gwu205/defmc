@@ -20,6 +20,17 @@ ul:not(.slick-dots) > li::before {
     @apply font-sans text-4xl font-bold tracking-tight leading-tight;
 }
 
+div.slick-track {
+    display: flex;
+}
+
+div.slick-track > .slick-slide {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .slick-slide img {
     margin-bottom: 0;
 }
@@ -32,10 +43,16 @@ button.slick-prev:before, button.slick-next:before {
     @apply text-gray-500 opacity-25 text-4xl;
 }
 
-button.slick-prev, button.slick-next {
+button.slick-arrow {
     z-index: 5;
     width: fit-content;
     height: fit-content;
+}
+
+@media (max-width: 768px) {
+    button.slick-arrow {
+        display: none !important;
+    }
 }
 
 button.slick-next {
