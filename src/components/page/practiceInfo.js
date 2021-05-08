@@ -17,7 +17,7 @@ const settings = {
 
 const PracticeInfo = () => {
     return (
-        <Slider {...settings} className="overflow-hidden bg-gray-100">
+        <Slider {...settings} className="overflow-hidden bg-lightgray">
             <SliderContainer image_src={healthElderly}>
                 <h3 className="heading-lg">Personalised healthcare</h3>
                 <SliderList items={["Women's and Men's Health",
