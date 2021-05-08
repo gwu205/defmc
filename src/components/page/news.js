@@ -9,37 +9,39 @@ class News extends React.Component {
                 className="heading-lg text-center mb-8">
                     News
                 </h2>
+                <div className="max-w-2xl mx-auto border-4 border-primary rounded-lg p-6">
                 {this.props.posts.map(({ node }) => {
-                const title = node.frontmatter.title || node.fields.slug
-                return (
-                    <article className="border-2 border-primary rounded p-6 flex" key={node.fields.slug}>
-                    <p 
-                        className="font-sans w-32 pr-4">
-                        {node.frontmatter.date}
-                    </p>
-                    <div>
-                        <header>
-                        <h3 className="font-sans font-bold text-xl">
-                            <Link
-                            className="shadow-none hover:text-primary hover:underline"
-                            to={node.fields.slug}
-                            >
-                            {title}
-                            </Link>
-                        </h3>
-                        </header>
-                        <section>
-                        <p
-                            className="text-sm mt-2"
-                            dangerouslySetInnerHTML={{
-                            __html: node.frontmatter.description || node.excerpt,
-                            }}
-                        />
-                        </section>
-                    </div>
-                    </article>
-                )
+                  const title = node.frontmatter.title || node.fields.slug
+                  return (
+                      <article className="flex" key={node.fields.slug}>
+                      <p 
+                          className="font-bold w-32 pr-4">
+                              {node.frontmatter.date}
+                      </p>
+                      <div>
+                          <header>
+                          <p className="font-bold">
+                              <Link
+                              className="shadow-none hover:text-primary hover:underline"
+                              to={node.fields.slug}
+                              >
+                              {title}
+                              </Link>
+                          </p>
+                          </header>
+                          <section>
+                          <p
+                              className="text-sm mt-2"
+                              dangerouslySetInnerHTML={{
+                              __html: node.frontmatter.description || node.excerpt,
+                              }}
+                          />
+                          </section>
+                      </div>
+                      </article>
+                  )
                 })}
+                </div>
             </section>
         )
     }
