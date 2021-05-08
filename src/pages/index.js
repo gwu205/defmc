@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/page/hero"
 import News from "../components/page/news"
+import PracticeInfo from "../components/page/practiceInfo"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
@@ -17,6 +18,7 @@ class BlogIndex extends React.Component {
         <SEO title="Doncaster East Family Medical Centre" />
         <Hero />
         <News posts={data.allMarkdownRemark.edges} />
+        <PracticeInfo />
       </Layout>
     )
   }
