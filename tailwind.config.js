@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: "#7E4184",
         secondary: "#5E3163",
+        lightgray: "#FAFAFA"
       },
     },
   },
