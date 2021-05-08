@@ -16,4 +16,10 @@ import "@fontsource/dm-sans"
 // Markdown formatting, uses Tailwind @apply primitive to apply Tailwind's utility classes to
 // elements created by the Markdown parser
 import "./src/markdown.css"
+
+// Global styles and Tailwind @include
 import "./src/global.css"
+
+// Slick slider
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
