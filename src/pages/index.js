@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { isBrowser } from "react-device-detect";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,6 +9,7 @@ import Hero from "../components/page/hero"
 import News from "../components/page/news"
 import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
+import Faq from "../components/page/faq"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
@@ -23,10 +25,11 @@ class BlogIndex extends React.Component {
         <PracticeInfo />
         <Team />
         <div className="flex">
-          <StaticImage src="../../content/assets/defmc_01.jpg" alt="DEFMC building" />
-          <StaticImage src="../../content/assets/defmc_02.jpg" alt="DEFMC reception" />
+          {isBrowser && <StaticImage src="../../content/assets/defmc_01.jpg" alt="DEFMC building" />}
+          {isBrowser && <StaticImage src="../../content/assets/defmc_02.jpg" alt="DEFMC reception" />}
           <StaticImage src="../../content/assets/defmc_03.jpg" alt="DEFMC front" />
         </div>
+        <Faq />
       </Layout>
     )
   }
