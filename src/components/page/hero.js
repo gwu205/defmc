@@ -2,7 +2,7 @@ import React from "react"
 
 const Hero = () => {
     return (
-        <section className="bg-primary">
+      <section className="bg-primary">
         <div className="section py-24 text-center">
           <h1 
             className="font-sans text-xl text-white">
