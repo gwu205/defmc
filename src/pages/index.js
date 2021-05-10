@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { isBrowser } from "react-device-detect";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,8 +25,8 @@ class BlogIndex extends React.Component {
         <PracticeInfo />
         <Team />
         <div className="flex">
-          <StaticImage src="../../content/assets/defmc_01.jpg" alt="DEFMC building" />
-          <StaticImage src="../../content/assets/defmc_02.jpg" alt="DEFMC reception" />
+          {isBrowser && <StaticImage src="../../content/assets/defmc_01.jpg" alt="DEFMC building" />}
+          {isBrowser && <StaticImage src="../../content/assets/defmc_02.jpg" alt="DEFMC reception" />}
           <StaticImage src="../../content/assets/defmc_03.jpg" alt="DEFMC front" />
         </div>
         <Faq />
