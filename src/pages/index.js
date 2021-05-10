@@ -8,6 +8,7 @@ import Hero from "../components/page/hero"
 import News from "../components/page/news"
 import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
+import Faq from "../components/page/faq"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
@@ -27,6 +28,7 @@ class BlogIndex extends React.Component {
           <StaticImage src="../../content/assets/defmc_02.jpg" alt="DEFMC reception" />
           <StaticImage src="../../content/assets/defmc_03.jpg" alt="DEFMC front" />
         </div>
+        <Faq />
       </Layout>
     )
   }
