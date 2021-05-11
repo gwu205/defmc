@@ -21,15 +21,15 @@ const PracticeInfo = () => {
             <SliderContainer image_src={healthElderly}>
                 <h3 className="heading-lg">Personalised healthcare</h3>
                 <SliderList items={["Women's and Men's Health",
-                                    "Children's Health and Immunisation", 
-                                    "Travel Vaccinations", 
-                                    "Wound Care & Minor operations", 
-                                    "Pre-employment & Insurance Medicals",  
+                                    "Children's Health and Immunisation",
+                                    "Travel Vaccinations",
+                                    "Wound Care & Minor operations",
+                                    "Pre-employment & Insurance Medicals",
                                     "Occupational Health"]} />
             </SliderContainer>
             <SliderContainer image_src={healthMeditation}>
                 <h3 className="heading-lg">Chronic disease management</h3>
-                <SliderList items={['Health Assessment & Care Plans', 
+                <SliderList items={['Health Assessment & Care Plans',
                                     'Diabetic management including access to credentialed Diabetic educator']} />
             </SliderContainer>
             <SliderContainer image_src={healthVaccineRow}>
@@ -40,7 +40,7 @@ const PracticeInfo = () => {
             <SliderContainer image_src={healthSolution}>
                 <h3 className="heading-lg">Pathology</h3>
                 <p className="mt-6">
-                    Australian ClinicalLabs provides an on-site pathology service from: <br/>Mon-Fri: 8.00am to 12.30pm
+                    Australian ClinicalLabs provides an on-site pathology service from:<br/>Mon-Fri: 8.00am to 12.30pm
                 </p>
             </SliderContainer>
         </Slider>
