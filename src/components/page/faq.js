@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
 const Faq = () => {
     return (
-        <section class="section py-24">
+        <section className="section py-24">
             <h2 className="heading-lg text-center mb-8">Frequently asked questions</h2>
             <Tabs className="grid grid-cols-3">
                 <TabList className="tab-list col-span-full md:col-span-1 pr-0 md:pr-4 mb-4 md:mb-0">

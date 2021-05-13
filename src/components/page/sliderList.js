@@ -6,9 +6,9 @@ class SliderList extends React.Component {
     
         return (
             <ul className="mt-6">
-                {items.map(item => { 
+                {items.map((item, index) => { 
                     return ( 
-                        <li className="relative">
+                        <li className="relative" key={index}>
                             {item}
                         </li>
                     )

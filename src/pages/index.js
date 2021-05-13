@@ -1,7 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { isBrowser } from "react-device-detect";
+import { isBrowser } from "react-device-detect"
+import { rhythm } from "../utils/typography"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,7 +11,7 @@ import News from "../components/page/news"
 import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
 import Faq from "../components/page/faq"
-import { rhythm } from "../utils/typography"
+import AfterHours from "../components/page/afterHours"
 
 class BlogIndex extends React.Component {
   render() {
@@ -30,6 +31,7 @@ class BlogIndex extends React.Component {
           <StaticImage src="../../content/assets/defmc_03.jpg" alt="DEFMC front" />
         </div>
         <Faq />
+        <AfterHours />
       </Layout>
     )
   }
