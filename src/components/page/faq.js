@@ -1,5 +1,7 @@
 import React from "react"
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs'
+
+resetIdCounter()
 
 const Faq = () => {
     return (
