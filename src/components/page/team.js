@@ -5,7 +5,7 @@ const Team = () => {
     return (
         <section className="section py-24 grid grid-cols-2 grid-rows-1 md:grid-cols-4 md:grid-rows-2 gap-4">
             <div className="team-content col-span-2 row-span-2 flex justify-center flex-col mb-4 md:mb-0">
-                <h2 className="heading-lg mb-4">
+                <h2 className="heading-lg mb-4 text-center md:text-left">
                     Meet the team
                 </h2>
                 <p>
