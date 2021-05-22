@@ -9,7 +9,7 @@ const AfterHours = () => {
                     <img src={HealthSick} />
                 </div>
                 <article className="w-full md:w-1/2 flex flex-col justify-content pl-0 md:pl-8">
-                    <h3 className="heading-lg mb-4">After hours care</h3>
+                    <h3 className="heading-lg mb-4 text-center md:text-left">After hours care</h3>
                     <p>
                         If you require immediate or urgent medical attention outside of DEFMC's opening hours, there are several local services which may still be available
                     </p>

@@ -14,12 +14,12 @@ const Hero = () => {
             </h2>
           <a 
             href="#" 
-            className="font-sans text-white border rounded p-4 my-4 shadow-none inline-block transition duration-300 ease-in-out transform hover:bg-secondary hover:border-primary hover:scale-105">
+            className="font-sans text-white border rounded p-4 my-4 shadow-none inline-block transition duration-300 ease-in-out transform hover:bg-secondary hover:border-primary hover:scale-105 hover:no-underline">
               Schedule appointment
           </a>
           <h2 
             className="font-sans text-white pt-4">
-              Or call us at <a className="font-bold" href="#">9842 8585</a>
+              Or call us at <a className="font-bold" href="tel:98428585">9842 8585</a>
           </h2>
         </div>
       </section>

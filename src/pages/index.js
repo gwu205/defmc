@@ -12,6 +12,7 @@ import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
 import Faq from "../components/page/faq"
 import AfterHours from "../components/page/afterHours"
+import Map from "../components/page/map"
 
 class BlogIndex extends React.Component {
   render() {
@@ -32,6 +33,7 @@ class BlogIndex extends React.Component {
         </div>
         <Faq />
         <AfterHours />
+        <Map />
       </Layout>
     )
   }
