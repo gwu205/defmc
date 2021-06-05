@@ -1,9 +1,10 @@
 import React from "react"
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs'
 
-resetIdCounter()
+function Faq() {
+    
+    resetIdCounter()
 
-const Faq = () => {
     return (
         <section className="section py-24">
             <h2 className="heading-lg text-center mb-8">Frequently asked questions</h2>
