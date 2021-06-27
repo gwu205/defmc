@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "gatsby build"
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+  force = true
+  
