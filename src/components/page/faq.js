@@ -1,9 +1,10 @@
 import React from "react"
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs'
 
-resetIdCounter()
+function Faq() {
+    
+    resetIdCounter()
 
-const Faq = () => {
     return (
         <section className="section py-24">
             <h2 className="heading-lg text-center mb-8">Frequently asked questions</h2>
@@ -40,7 +41,7 @@ const Faq = () => {
                                 How do I make repeat prescriptions/referrals?
                             </h4>
                             <p>
-                                Repeat prescriptions and referral letters are not available by phone. Please kindly make an appointment in case these are required.
+                                Repeat prescriptions and referral letters are not available by consult including phone consult when it is appropriate. Please kindly make an appointment in case these are required.
                             </p>
                             <p>
                                 Referral letters are usually valid for 12 months from any general practitioners and 3 months only from any other specialists. They will generally require to be renewed before seeing your specialist - please note that they are legally not allowed to be backdated.
