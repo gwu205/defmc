@@ -12,6 +12,7 @@ import ImageBlock from "../components/page/imageBlock"
 import Faq from "../components/page/faq"
 import AfterHours from "../components/page/afterHours"
 import Map from "../components/page/map"
+import Feedback from "../components/page/feedback"
 
 class BlogIndex extends React.Component {
   render() {
@@ -29,6 +30,7 @@ class BlogIndex extends React.Component {
         <Faq />
         <AfterHours />
         <Map />
+        <Feedback />
       </Layout>
     )
   }
