@@ -17,7 +17,7 @@ const settings = {
 
 const PracticeInfo = () => {
     return (
-        <Slider {...settings} className="overflow-hidden bg-lightgray">
+        <Slider {...settings} className="overflow-hidden bg-lightgray py-8">
             <SliderContainer image_src={healthElderly}>
                 <h3 className="heading-lg">Personalised healthcare</h3>
                 <SliderList items={["Women's and Men's Health",
@@ -35,12 +35,13 @@ const PracticeInfo = () => {
             <SliderContainer image_src={healthVaccineRow}>
                 <h3 className="heading-lg">Specialised services</h3>
                 <SliderList items={["Acupuncture",
-                                    "Contraceptive Advice including Implanon insertion"]} />
+                                    "Contraceptive Advice",
+                                    "Iron Infusion"]} />
             </SliderContainer>
             <SliderContainer image_src={healthSolution}>
                 <h3 className="heading-lg">Pathology</h3>
                 <p className="mt-6">
-                    Australian ClinicalLabs provides an on-site pathology service from:<br/>Mon-Fri: 8.00am to 12.30pm
+                    Australian ClinicalLabs provides an on-site pathology service<br/>Please call to check their current operating hours
                 </p>
             </SliderContainer>
         </Slider>

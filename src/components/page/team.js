@@ -18,10 +18,10 @@ const Team = () => {
                     As always, we strive to provide a personalised, wholistic, high-quality family medical care for our patients.
                 </p>
             </div>
-            <TeamCard img="https://via.placeholder.com/48" name="Dr. Lawrence Wu" qualification="MBBS Dp Med Acup" />
-            <TeamCard img="https://via.placeholder.com/48" name="Dr. Rose Thanenthiran" qualification="MBBS, FRACGP" />
-            <TeamCard img="https://via.placeholder.com/48" name="Lawrence Wu" qualification="MBBS Dp Med Acup" />
-            <TeamCard img="https://via.placeholder.com/48" name="Lawrence Wu" qualification="MBBS Dp Med Acup" />
+            <TeamCard img="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Light" name="Dr. Lawrence Wu" qualification="MBBS Dp Med Acup" />
+            <TeamCard img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairBob&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=DarkBrown" name="Dr. Rose Thanenthiran" qualification="MBBS, FRACGP" />
+            <TeamCard img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown" name="Sathiya Sivanesan" qualification="MBBS" />
+            <TeamCard img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light" name="Ms Francisa Man" qualification="Diabetic Educator" />
         </section>
     )
 }
