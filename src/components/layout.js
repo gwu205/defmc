@@ -26,7 +26,7 @@ class Layout extends React.Component {
     return (
       <>
         {header}
-        <main className={i18n.languages[0] === "zh-Hant" ? "zh" : ""}>
+        <main className={i18n.languages[0] === "en" ? "" : "zh"}>
           {children}
         </main>
         <footer className="bg-secondary">

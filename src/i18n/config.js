@@ -22,6 +22,6 @@ i18next.init({
   },
 })
 
-i18next.languages = ["zh-Hant", "en"]
+i18next.languages = ["en", "zh-Hant"]
 
 export default i18next
