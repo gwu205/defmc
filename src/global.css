@@ -24,6 +24,12 @@ article p:not(:last-child) {
   @apply mb-2;
 }
 
+@media (max-width: 768px) {
+  section article:not(:last-child) {
+    @apply mb-6;
+  }
+}
+
 .paragraph-heading {
   @apply font-bold mb-4;
 }
