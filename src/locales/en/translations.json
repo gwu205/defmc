@@ -1,0 +1,95 @@
+{
+  "fmc": "Family Medical Centre",
+  "tel": "Tel",
+  "hero": {
+    "tagline": "Your family medical care specialist",
+    "CTA": "Make an appointment online",
+    "button": "Schedule appointment",
+    "phone": "Or call us at"
+  },
+  "news": "Recent News",
+  "practice": {
+    "title_1": "Personalised healthcare",
+    "content_1": [
+      "Women's and Men's Health",
+      "Children's Health and Immunisation",
+      "Travel Vaccinations",
+      "Wound Care & Minor operations",
+      "Pre-employment & Insurance Medicals",
+      "Occupational Health"
+    ],
+    "title_2": "Chronic disease management",
+    "content_2": [
+      "Health Assessment & Care Plans",
+      "Diabetic management including access to credentialed Diabetic educator"
+    ],
+    "title_3": "Specialised services",
+    "content_3": ["Acupuncture", "Contraceptive Advice", "Iron Infusion"],
+    "title_4": "Pathology",
+    "content_4": "Australian ClinicalLabs provides an on-site pathology service. Please call to check their current operating hours"
+  },
+  "team": {
+    "title": "Meet the team",
+    "content": [
+      "All our doctors are fully experienced in caring for patients of all ages and are highly dedicated to our patients.",
+      "We always strive to provide personalised, wholistic, high-quality family medical care for all of our patients, wherever you come from.",
+      "Come visit us! We are committed to providing high quality medical care six days a week from our location on Blackburn Road. Reservations can be made from the link at the top of this page."
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "general": {
+      "title": "General",
+      "privacy_t": "What are DEFMC’s privacy laws and policy on medical information management?",
+      "privacy_c": [
+        "It is our strict policy to maintain the absolute security for all our medical records. We respect that they are conﬁdential documents and none of the information will be accessed by any unauthorised personnel.",
+        "We will only release your medical records upon provision of a signed authority from yourself when you decide to seek medical care elsewhere or if you are moving to a different area."
+      ],
+      "reminder_t": "What is the Recall & Reminder System?",
+      "reminder_c": "All patients are automatically added to both the government run register and our recall system for PAP smears and immunisations. Please inform the doctors if you prefer not to be on this system.",
+      "repeat_t": "How do I make repeat prescriptions/referrals?",
+      "repeat_c": [
+        "Repeat prescriptions and referral letters are not available by consult including phone consult when it is appropriate. Please kindly make an appointment in case these are required.",
+        "Referral letters are usually valid for 12 months from any general practitioners and 3 months only from any other specialists. They will generally require to be renewed before seeing your specialist - please note that they are legally not allowed to be backdated."
+      ],
+      "disabled_t": "Is there disabled access to the building?",
+      "disabled_c": "We provide disabled parking at the back entrance and a wheelchair accessible toilet on premises."
+    },
+    "appointments": {
+      "title": "Appointments",
+      "group_t": "Can I organise a longer consultation or an appointment for my family to be seen together?",
+      "group_c": "Please indicate when you ring for an appointment if a longer consultation is expected for complex or multiple problems. Double appointments are recommended for each individual members of your family to be seen together; if more than one family member is anticipated to be seen by the doctor, please book an appointment time for each member.",
+      "schedule_t": "Why was I not seen at my scheduled time?",
+      "schedule_c": "Our doctors are equally committed to being on time and the maintenance of the high quanity of care, so it is possible that you might not be seen at your scheduled time due to longer than normal time spent on some patients with complicated issues and unexpected emergencies.",
+      "walkin_t": "Does DEFMC cater for walk-ins?",
+      "walkin_c": "Walk-ins are catered for as long as we are able to ﬁt you in, but appointments are strongly recommended. Patients with appointments are generally prioritised to be seen before those without an appointment. Please let us know as soon as possible if you are unable to make your appointment - adequate notice for cancellations is much appreciated, both by us and by the other patients.",
+      "results_t": "Do I need to make an appointment to discuss test results?",
+      "results_c": "A normal appointment is required to discuss your test results with the doctor. They are generally not available over the phone and our receptionists are not medically qualiﬁed to discuss them with you. We make every effort to call you regarding your results requiring further discussion, but it is your onus to make an effort to find out if any action needs to be taken for your results."
+    },
+    "billing": {
+      "title": "Fees & Billing",
+      "bulk_t": "Does DEFMC bulk bill?",
+      "bulk_c": "Normal fees apply for all consultations. The first visit will be billed at the normal private rate regardless of age and concession card status. After the first visit, Pensioners, Health Care Card holders and children under 16 will be bulk billed Monday to Friday. Higher fees apply for Saturday and once again irrespective of age and concession card status. Please note higher fees also apply for longer consultation.",
+      "payment_t": "What payment methods does DEFMC accept?",
+      "payment_c": "We accept cash, cheque and payment by EFTPOS and credit cards.",
+      "rebate_t": "How do I receive my Medicare rebate?",
+      "rebate_c": "Consultation fees attract a Medicare rebate if eligible and you can have your rebate deposited into your account if you have registered your bank account details with Medicare or if you can provide us with your BSB and Account numbers.",
+      "fee_t": "Why did I incur a $10 administration fee after my consultation?",
+      "fee_c": "Accounts need to be settled at the time of consultation, otherwise an administration fee of $10 will apply to accounts not settled on the day of consultation."
+    }
+  },
+  "afterhours": {
+    "title": "After hours care",
+    "description": "If you require immediate or urgent medical attention outside of DEFMC's opening hours, there are several local services which may still be available",
+    "emergency": "Triple Zero Emergency",
+    "gp": "After Hours GPs Clinic (open until 11.30pm nightly)",
+    "locum": "Locum Service (24hr service)"
+  },
+  "contact": "Find us",
+  "feedback": {
+    "title": "Patient feedback",
+    "description": "Please direct all your queries to our Practice Manager, unless you feel your concern needs to be addressed outside the practice, please contact either of the following:",
+    "vhsc": "Victorian Health Services Commissioner",
+    "ahpra": "Australian Health Practitioner Regulation Agency"
+  }
+}
