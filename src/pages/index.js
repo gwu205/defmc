@@ -2,9 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/page/hero"
 import News from "../components/page/news"
 import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
@@ -20,9 +18,8 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <>
         <SEO title="Doncaster East Family Medical Centre" />
-        <Hero />
         <News posts={data.allMarkdownRemark.edges} />
         <PracticeInfo />
         <Team />
@@ -31,7 +28,7 @@ class BlogIndex extends React.Component {
         <AfterHours />
         <Map />
         <Feedback />
-      </Layout>
+      </>
     )
   }
 }
