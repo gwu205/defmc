@@ -1,7 +1,6 @@
 import React from "react"
 import { withTrans } from "../../i18n/withTrans"
 import Header from "../header"
-import Doctor from "../../../content/assets/doctor.svg"
 
 const Hero = ({ t, i18n }) => {
   return (
