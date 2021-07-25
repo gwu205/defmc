@@ -17,7 +17,7 @@ const Feedback = ({ t }) => {
             <br />
             Melbourne 3000
             <br />
-            Tel: 8601 5222
+            {t("tel")}: 8601 5222
           </p>
           <p className="paragraph-heading">{t("feedback.ahpra")}</p>
           <p>
@@ -25,7 +25,7 @@ const Feedback = ({ t }) => {
             <br />
             Melbourne 3000
             <br />
-            Tel: 1300 419 4950
+            {t("tel")}: 1300 419 4950
           </p>
         </div>
         <div className="flex items-end justify-center sm:justify-end w-full sm:w-1/3">
