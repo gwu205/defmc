@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog TailwindCSS`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-tailwindcss-demo.netlify.com/`,
+    title: `Doncaster East Family Medical Centre`,
+    author: `DEFMC`,
+    description: `Family medical care specialist on Blackburn Road, Doncaster East.`,
+    siteUrl: `https://defmc.com.au/`,
     social: {
-      twitter: `kylemathews`,
+      facebook: `defmc_116`,
     },
   },
   plugins: [
@@ -21,6 +21,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: `${__dirname}/src/components/layout.js`,
       },
     },
     {
@@ -58,13 +64,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Doncaster East Family Medical Centre`,
+        short_name: `DEFMC`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#7E4184`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/defmc_logo_small.png`,
       },
     },
     `gatsby-plugin-remove-serviceworker`,
