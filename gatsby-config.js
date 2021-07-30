@@ -70,7 +70,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#7E4184`,
         display: `minimal-ui`,
-        icon: `content/assets/defmc_logo_small.png`,
+        icon: `content/assets/defmc_favicon.png`,
       },
     },
     `gatsby-plugin-remove-serviceworker`,
