@@ -31,7 +31,7 @@ const Team = ({ t }) => {
       <TeamCard
         img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light"
         name="Ms Francisa Man"
-        qualification="Diabetic Educator"
+        qualification={t("team.educator")}
       />
     </section>
   )

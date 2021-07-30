@@ -26,7 +26,7 @@
     "title_3": "Specialised services",
     "content_3": ["Acupuncture", "Contraceptive Advice", "Iron Infusion"],
     "title_4": "Pathology",
-    "content_4": "Australian ClinicalLabs provides an on-site pathology service. Please call to check their current operating hours"
+    "content_4": "Australian ClinicalLabs provides an on-site pathology service. Please call us to check their current operating hours"
   },
   "team": {
     "title": "Meet the team",
@@ -34,7 +34,8 @@
       "All our doctors are fully experienced in caring for patients of all ages and are highly dedicated to our patients.",
       "We always strive to provide personalised, wholistic, high-quality family medical care for all of our patients, wherever you come from.",
       "Come visit us! We are committed to providing high quality medical care six days a week from our location on Blackburn Road. Reservations can be made from the link at the top of this page."
-    ]
+    ],
+    "educator": "Diabetic Educator"
   },
   "faq": {
     "title": "Frequently asked questions",

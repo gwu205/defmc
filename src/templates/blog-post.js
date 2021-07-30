@@ -12,12 +12,12 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
+        <article className="max-w-lg mx-auto px-6">
           <header>
             <h1 className="text-5xl font-black mt-8 mb-0">
               {post.frontmatter.title}
@@ -30,23 +30,14 @@ class BlogPostTemplate extends React.Component {
             className="markdown"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+          <Link to={"/"} className="text-center block mb-4">
+            Back
+          </Link>
           <hr className="h-px mb-8" />
-          <footer>
-            {/* <Bio /> */}
-          </footer>
         </article>
 
         <nav>
-          <ul
-            className="flex flex-wrap justify-between mb-8"
-            // style={{
-            //   display: `flex`,
-            //   flexWrap: `wrap`,
-            //   justifyContent: `space-between`,
-            //   listStyle: `none`,
-            //   padding: 0,
-            // }}
-          >
+          <ul className="blog-nav">
             <li>
               {previous && (
                 <Link
@@ -71,7 +62,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </nav>
-      </Layout>
+      </>
     )
   }
 }

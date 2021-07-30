@@ -2,6 +2,16 @@ body {
   @apply text-primary;
 }
 
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .zh {
   font-size: 115%;
   line-height: 1.75;
@@ -17,7 +27,7 @@ a:hover {
 }
 
 section article:not(:last-child) {
-  @apply mb-12;
+  @apply mb-8;
 }
 
 article p:not(:last-child) {
@@ -46,7 +56,11 @@ article p:not(:last-child) {
   @apply font-bold opacity-100;
 }
 
-ul:not(.tab-list) {
+.blog-nav {
+  @apply flex flex-wrap justify-between mb-8 max-w-lg mx-auto px-6;
+}
+
+ul:not(.tab-list, .blog-nav) {
   @apply ml-8;
 }
 
