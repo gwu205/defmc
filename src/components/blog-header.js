@@ -4,13 +4,13 @@ import logo from "../../content/assets/defmc_logo_dark.svg"
 
 const BlogHeader = () => {
   return (
-    <header className="w-auto">
-      <div className="w-2/4 mx-auto py-8">
+    <nav className="w-auto bg-gray-100">
+      <div className="max-w-lg mx-auto py-8 px-6">
         <Link to={`/`}>
           <img className="h-16 mb-0" src={logo} alt="DEFMC" />
         </Link>
       </div>
-    </header>
+    </nav>
   )
 }
 
