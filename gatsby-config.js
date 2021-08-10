@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Doncaster East Family Medical Centre`,
     author: `DEFMC`,
-    description: `Family medical care specialist on Blackburn Road, Doncaster East.`,
+    description: `Local family medical care specialist on Blackburn Road in Doncaster East. DEFMC is a GP practice open 6 days a week with Mandarin, Cantonese and Tamil speaking doctors.`,
     siteUrl: `https://defmc.com.au/`,
     social: {
       facebook: `defmc_116`,
