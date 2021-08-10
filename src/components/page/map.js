@@ -11,6 +11,7 @@ const Map = ({ t }) => {
           Doncaster East, <br />
           VIC, 3109
         </p>
+        <p className="text-base">{t("parking")}</p>
         <p className="mt-4">
           <a href="tel:98428585">
             <svg
