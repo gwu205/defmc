@@ -3,11 +3,9 @@ layout: news
 title: COVID-19 Precautions
 date: 2021-04-01T06:43:16.961Z
 ---
-In light of the current COVID-19 situation, please be assured that the highest standards of hygiene are maintained in our clinics as always. Any patients with potentially infectious symptoms are asked to stay in their cars as much as possible until they are taken directly to a separate room for consultation to reduce their stay in the waiting room. We have improved our  waiting space to allow for better spacing between waiting patients.
+In light of the current COVID-19 situation, please be assured that the highest standards of hygiene are maintained in our clinics as always. All patients are requested to stay in their cars until they are ready to be seen so as to reduce their time of stay in the waiting room. We have improved our waiting space to allow for adequate social distancing between waiting patients.
 
-We are introducing telemedicine to anyone who may need an online consultation in the near future.
-
-We will also be introducing flu vaccination clinics to provide vaccinations to well patients at specific times to reduce their contact with other patients.
+We have introduced telemedicine to anyone who may need be having potential infective symptoms and anyone else who finds it necessary to have remote access consultations.
 
 \---
 
