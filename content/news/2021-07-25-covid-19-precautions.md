@@ -1,6 +1,6 @@
 ---
 layout: news
-title: COVID-19 Precautions
+title: Response to COVID-19
 date: 2021-08-16T08:30:28.267Z
 ---
 In light of the current COVID-19 situation, please be assured that the highest standards of hygiene are maintained in our clinics as always. All patients are requested to stay in their cars until they are ready to be seen so as to reduce their time of stay in the waiting room. We have improved our waiting space to allow for adequate social distancing between waiting patients.
