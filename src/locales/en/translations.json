@@ -50,7 +50,7 @@
       "reminder_c": "All patients are automatically added to both the government run register and our recall system for PAP smears and immunisations. Please inform the doctors if you prefer not to be on this system.",
       "repeat_t": "How do I make repeat prescriptions/referrals?",
       "repeat_c": [
-        "Repeat prescriptions and referral letters are not available by consult including phone consult when it is appropriate. Please kindly make an appointment in case these are required.",
+        "Repeat prescriptions and referral letters are only available by consult either by normal in-person consult or by phone consult when it is appropriate. Please kindly make an appointment in case these are required.",
         "Referral letters are usually valid for 12 months from any general practitioners and 3 months only from any other specialists. They will generally require to be renewed before seeing your specialist - please note that they are legally not allowed to be backdated."
       ],
       "disabled_t": "Is there disabled access to the building?",
