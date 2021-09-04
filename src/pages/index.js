@@ -11,6 +11,7 @@ import Faq from "../components/page/faq"
 import AfterHours from "../components/page/afterHours"
 import Map from "../components/page/map"
 import Feedback from "../components/page/feedback"
+import Modal from "./modal"
 
 class BlogIndex extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class BlogIndex extends React.Component {
     return (
       <>
         <SEO title="Doncaster East Family Medical Centre" />
+        <Modal />
         <News posts={data.allMarkdownRemark.edges} />
         <PracticeInfo />
         <Team />
