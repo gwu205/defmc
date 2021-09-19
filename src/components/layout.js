@@ -3,7 +3,7 @@ import { withTrans } from "../i18n/withTrans"
 import { Link } from "gatsby"
 import Hero from "../components/page/hero"
 import BlogHeader from "./blog-header"
-import DefmcLogo from "../../content/assets/defmc_logo.svg"
+import Defmc from "../../content/assets/defmc"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -34,8 +34,8 @@ class Layout extends React.Component {
             {isRoot ? (
               ""
             ) : (
-              <Link to={`/`}>
-                <img className="w-20 mx-auto" src={DefmcLogo} />
+              <Link className="py-8 mx-auto block w-max" to={`/`}>
+                <Defmc className="text-white w-20 h-auto" />
               </Link>
             )}
             © {new Date().getFullYear()} Doncaster East {t("fmc")}
