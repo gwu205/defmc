@@ -60,7 +60,7 @@ article p:not(:last-child) {
   @apply flex flex-wrap justify-between mb-8 max-w-lg mx-auto px-6;
 }
 
-ul:not(.tab-list, .blog-nav) {
+ul:not(.tab-list, .blog-nav, .slick-dots) {
   @apply ml-8;
 }
 
