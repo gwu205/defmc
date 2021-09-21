@@ -3,10 +3,10 @@ import React, { useEffect } from "react"
 export default function Modal() {
   const [visible, setVisible] = React.useState(false)
   useEffect(() => {
-    let pop_status = localStorage.getItem("pop_status")
+    let pop_status = sessionStorage.getItem("pop_status")
     if (!pop_status) {
       setVisible(true)
-      localStorage.setItem("pop_status", 1)
+      sessionStorage.setItem("pop_status", 1)
     }
   }, [])
   if (!visible) return null
