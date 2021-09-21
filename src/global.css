@@ -69,7 +69,7 @@ article p:not(:last-child) {
   @apply flex flex-wrap justify-between mb-8 max-w-lg mx-auto px-6;
 }
 
-ul:not(.tab-list, .blog-nav) {
+ul:not(.tab-list, .blog-nav, .slick-dots) {
   @apply ml-8;
 }
 
@@ -91,12 +91,29 @@ ul:not(.slick-dots) > li::before {
   @apply font-sans font-bold text-2xl tracking-tight leading-tight;
 }
 
-.bg-hero {
-  background-image: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    rgb(131, 72, 199) 0%,
-    rgb(95, 131, 249) 100.2%
-  );
+.banner {
+  background-image: linear-gradient(
+      rgba(214, 176, 119, 0.1),
+      rgba(133, 119, 145, 0.1)
+    ),
+    url("../content/assets/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    background-image: linear-gradient(
+        rgba(125, 80, 161, 0.9),
+        rgba(45, 37, 51, 0.6)
+      ),
+      url("../content/assets/banner.jpg");
+    background-position: 70% 50%;
+  }
+}
+
+.min-h {
+  min-height: 40rem;
 }
 
 div.slick-track {

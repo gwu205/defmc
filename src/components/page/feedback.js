@@ -1,6 +1,6 @@
 import React from "react"
 import { withTrans } from "../../i18n/withTrans"
-import DefmcLogo from "../../../content/assets/defmc_logo.svg"
+import Defmc from "../../../content/assets/defmc"
 
 const Feedback = ({ t }) => {
   return (
@@ -29,7 +29,7 @@ const Feedback = ({ t }) => {
           </p>
         </div>
         <div className="flex items-end justify-center sm:justify-end w-full sm:w-1/3">
-          <img className="w-24 mb-0" src={DefmcLogo} />
+          <Defmc className="w-24 h-auto text-white" />
         </div>
       </div>
     </article>
