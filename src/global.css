@@ -133,6 +133,7 @@ div.slick-track > .slick-slide {
 
 ul.slick-dots li.slick-active button:before {
   @apply text-primary opacity-100 text-xs;
+  line-height: 20px;
 }
 
 button.slick-prev:before,
