@@ -35,7 +35,7 @@ const Map = ({ t }) => {
           <a
             href="https://www.facebook.com/defmc116"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
