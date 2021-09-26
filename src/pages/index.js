@@ -4,6 +4,7 @@ import { rhythm } from "../utils/typography"
 
 import SEO from "../components/seo"
 import News from "../components/page/news"
+import Important from "../components/page/important"
 import PracticeInfo from "../components/page/practiceInfo"
 import Team from "../components/page/team"
 import ImageBlock from "../components/page/imageBlock"
@@ -23,6 +24,7 @@ class BlogIndex extends React.Component {
         <SEO title="Doncaster East Family Medical Centre" />
         <Modal />
         <News posts={data.allMarkdownRemark.edges} />
+        <Important />
         <PracticeInfo />
         <Team />
         <ImageBlock />
@@ -52,7 +54,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "Do MMM YYYY")
             title
           }
         }
