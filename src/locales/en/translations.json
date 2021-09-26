@@ -1,5 +1,6 @@
 {
   "fmc": "Family Medical Centre",
+  "chinese": "Cantonese, Mandarin",
   "tel": "Tel",
   "hero": {
     "tagline": "Your family medical care specialist",
@@ -8,31 +9,55 @@
     "phone": "Or call us at"
   },
   "news": "Recent News",
+  "important": {
+    "label": "Important notice",
+    "title": "COVID-19 Prevention Measures",
+    "content_main": {
+      "1": "Face masks are mandatory when attending our clinic.",
+      "2": "If you have a fever or chills or cough, sore throat, shortness of breath, runny nose or loss of sense of smell - please call our staff on 9842-8585 to discuss options for testing if you're unwell.",
+      "3": "Do not attend the clinic.",
+      "4": "When you arrive, do not enter the clinic. Remain in your car and call to let us know you are here and we will call you in when it is your turn"
+    },
+    "content_1_link": "COVID-19 Exposure Sites",
+    "content_1": "Please refer to the DHHS website for current exposure sites and do not attend our clinic if you have visited these locations within the specified time frame or any red zone location, and/or if you are experiencing flu-like symptoms.",
+    "content_2_link": "COVID-19 Vaccine",
+    "content_2": "We are NOT one of the allocated clinics giving the vaccine. To find out where you can have yours, please visit the following website: www.hotdoc.com.au and select ‘Book an appointment’. Enter your postcode and age group and a list of clinics will appear and you will be able to book for a Covid vaccine online."
+  },
   "practice": {
     "title_1": "Personalised healthcare",
     "content_1": [
-      "Women's and Men's Health",
+      "Men's and Women's Health: family planning, Cervical screening/pap smears, pregnancy tests",
       "Children's Health and Immunisation",
       "Travel Vaccinations",
       "Wound Care & Minor operations",
       "Pre-employment & Insurance Medicals",
-      "Occupational Health"
+      "Occupational Health",
+      "Accredited Yellow Fever Vaccination Clinic"
     ],
     "title_2": "Chronic disease management",
     "content_2": [
+      "Pain management",
+      "Preventative medicine",
       "Health Assessment & Care Plans",
-      "Diabetic management including access to credentialed Diabetic educator"
+      "Diabetic management"
     ],
     "title_3": "Specialised services",
-    "content_3": ["Acupuncture", "Contraceptive Advice", "Iron Infusion"],
+    "content_3": [
+      "Acupuncture",
+      "Sports medicine",
+      "Contraceptive Advice",
+      "Iron Infusion",
+      "Liquid nitrogen 'freezing' therapy for sunspots and warts",
+      "Blood tests and ECG"
+    ],
     "title_4": "Pathology",
     "content_4": "Australian ClinicalLabs provides an on-site pathology service. Please call us to check their current operating hours"
   },
   "team": {
     "title": "Meet the team",
     "content": [
-      "All our doctors are fully experienced in caring for patients of all ages and are highly dedicated to our patients.",
-      "We always strive to provide personalised, wholistic, high-quality family medical care for all of our patients, wherever you come from.",
+      "All our doctors are experienced in caring for patients of all ages and backgrounds and are highly dedicated to our patients.",
+      "We have multilingual staff and always strive to provide personalised, wholistic, high-quality family medical care for all of our patients, wherever you come from.",
       "Come visit us! We are committed to providing high quality medical care six days a week from our location on Blackburn Road. Reservations can be made from the link at the top of this page."
     ],
     "educator": "Diabetic Educator"
@@ -41,20 +66,33 @@
     "title": "Frequently asked questions",
     "general": {
       "title": "General",
+      "appointment_t": "How can I make an appointment to see a doctor?",
+      "appointment_c1": "Consultations are by appointment only. Please ring the surgery on 03 9842 8585 to make an appointment or book online via ",
+      "appointment_c2": "If you need more time with the doctor, such as for an insurance medical (these are out of pocket-not claimable on Medicare), emotional difficulties or a second opinion, please tell the receptionist when you book your appointment as a longer consultation may be required. Please book a separate appointment for each person that needs to be seen",
       "privacy_t": "What are DEFMC’s privacy laws and policy on medical information management?",
       "privacy_c": [
         "It is our strict policy to maintain the absolute security for all our medical records. We respect that they are conﬁdential documents and none of the information will be accessed by any unauthorised personnel.",
         "We will only release your medical records upon provision of a signed authority from yourself when you decide to seek medical care elsewhere or if you are moving to a different area."
       ],
       "reminder_t": "What is the Recall & Reminder System?",
-      "reminder_c": "All patients are automatically added to both the government run register and our recall system for PAP smears and immunisations. Please inform the doctors if you prefer not to be on this system.",
+      "reminder_c": [
+        "Our practice is committed to providing optimal care and as such, subscribes to all government recall systems for Cervical screening/Pap smears and Immunisations.",
+        "All patients needing follow up treatment are automatically placed onto these recall systems.  Please let your doctor know if you do not wish to participate.",
+        "Please respond to all recalls either via phone or letter."
+      ],
+      "prescription_t": "How can I receive my electronic prescription information?",
+      "prescription_c": [
+        "As part of our ongoing medical service, DEFMC is very happy to announce that we can now provide your prescription electronically. Your Doctor will be able to SMS or email you a link to a QR or barcode token. This is called an ePrescription, or eScript. Please note that eScripts are only available for patients with a Medicare card (or a DVA card). This new service avoids the need for patients to collect a paper prescription for their medications.",
+        "You must have a smart phone or an email address to receive your eScript. You can have the eScript sent to a family member or friend if you wish. You must provide their phone number or email address during your consultation with your doctor if this is the case.",
+        "We will send your eScript during your consultation. This will come through as link to a QR code that you will provide to your pharmacist."
+      ],
       "repeat_t": "How do I make repeat prescriptions/referrals?",
       "repeat_c": [
-        "Repeat prescriptions and referral letters are only available by consult either by normal in-person consult or by phone consult when it is appropriate. Please kindly make an appointment in case these are required.",
+        "Requests for repeat prescriptions, referral letters and medical certificates will not be taken over the phone. You must make an appointment with your doctor to obtain these.",
         "Referral letters are usually valid for 12 months from any general practitioners and 3 months only from any other specialists. They will generally require to be renewed before seeing your specialist - please note that they are legally not allowed to be backdated."
       ],
       "disabled_t": "Is there disabled access to the building?",
-      "disabled_c": "We provide disabled parking at the back entrance and a wheelchair accessible toilet on premises."
+      "disabled_c": "We provide disabled parking at the back entrance, a wheelchair accessible toilet on premises and front and rear automatic sliding doors"
     },
     "appointments": {
       "title": "Appointments",
@@ -65,33 +103,54 @@
       "walkin_t": "Does DEFMC cater for walk-ins?",
       "walkin_c": "Walk-ins are catered for as long as we are able to ﬁt you in, but appointments are strongly recommended. Patients with appointments are generally prioritised to be seen before those without an appointment. Please let us know as soon as possible if you are unable to make your appointment - adequate notice for cancellations is much appreciated, both by us and by the other patients.",
       "results_t": "Do I need to make an appointment to discuss test results?",
-      "results_c": "A normal appointment is required to discuss your test results with the doctor. They are generally not available over the phone and our receptionists are not medically qualiﬁed to discuss them with you. We make every effort to call you regarding your results requiring further discussion, but it is your onus to make an effort to find out if any action needs to be taken for your results."
+      "results_c": "It is a policy of this clinic that no results will be given over the phone. Reception staff are not clinically trained so will not give out any results unless under specific instruction from your Doctor. It is your responsibility to make a follow up appointment to discuss any test results.",
+      "phone_t": "Can I speak to a doctor over the phone instead of making an appointment?",
+      "phone_c": [
+        "The Doctors are unable to take phone calls during their sessions.  Please explain what you need to the Reception staff and they may be able to help you.  If not, they will pass the message on to the Doctor",
+        "If the doctor deems the call as clinically significant, they will call you back at the soonest possible time. We ask that patients please do not misuse this service and let the receptionist deal with non-clinical queries."
+      ]
     },
     "billing": {
       "title": "Fees & Billing",
       "bulk_t": "Does DEFMC bulk bill?",
-      "bulk_c": "Normal fees apply for all consultations. The first visit will be billed at the normal private rate regardless of age and concession card status. After the first visit, Pensioners, Health Care Card holders and children under 16 will be bulk billed Monday to Friday. Higher fees apply for Saturday and once again irrespective of age and concession card status. Please note higher fees also apply for longer consultation.",
+      "bulk_c": [
+        "Normal fees apply for all consultations. The first visit will be billed at the normal private rate regardless of age and concession card status.",
+        "After the first visit, Pensioners, Health Care Card holders and children under 16 will be bulk billed Monday to Friday.",
+        "There is no bulk billing on a Saturday and will incur a higher fee regardless of concession status.",
+        "Please note higher fees also apply for longer consultation. Additionally, a consultation fee applies for all new patients or existing patients who have not attended in the last 3 years",
+        "Accounts need to be settled at the time of consultation.  An administration fee of $10 will apply for accounts not settled at this time. Please ask reception if you have any queries"
+      ],
       "payment_t": "What payment methods does DEFMC accept?",
-      "payment_c": "We accept cash, cheque and payment by EFTPOS and credit cards.",
+      "payment_c": "We accept cash, cheque and payment by EFTPOS and credit cards. We can claim the Medicare Rebate on your behalf if you have your correct bank details registered with Medicare",
       "rebate_t": "How do I receive my Medicare rebate?",
       "rebate_c": "Consultation fees attract a Medicare rebate if eligible and you can have your rebate deposited into your account if you have registered your bank account details with Medicare or if you can provide us with your BSB and Account numbers.",
       "fee_t": "Why did I incur a $10 administration fee after my consultation?",
       "fee_c": "Accounts need to be settled at the time of consultation, otherwise an administration fee of $10 will apply to accounts not settled on the day of consultation."
     }
   },
-  "afterhours": {
-    "title": "After hours care",
-    "description": "If you require immediate or urgent medical attention outside of DEFMC's opening hours, there are several local services which may still be available",
-    "emergency": "Triple Zero Emergency",
+  "emergency": {
+    "title": "Emergency appointments",
+    "description": "DEFMC have limited spaces during the day for Emergency appointments. Patients should appreciate that the purpose of an emergency appointment is to deal with the immediate problem and is not suitable for managing your routine health and medical issues.",
+    "emergency": "Medical Emergencies",
+    "000a": "In cases of extreme emergency, like chest pain, call the ambulance directly on “000”. Otherwise, call the surgery and you will be instructed as to the best course of action to take. ",
+    "000b": "Please advise our staff if your call is a medical emergency so that you are not put on hold.",
     "gp": "After Hours GPs Clinic (open until 11.30pm nightly)",
     "locum": "Locum Service (24hr service)"
+  },
+  "afterhours": {
+    "title": "After hours",
+    "description": [
+      "When the surgery is closed, if you are calling regarding a medical emergency, please hang up & call “000” for an ambulance immediately",
+      "The closest Emergency Dept is at Box Hill Hospital. Entry via Rodgerson Road",
+      "If you would like a home visiting doctor, please call 13 74 25. They are available weeknights, weekends, and public holidays"
+    ]
   },
   "contact": "Find us",
   "parking": "Limited parking available on site. Alternatively, 2 hour parking is available around the corner on Beverley Street",
   "feedback": {
     "title": "Patient feedback",
-    "description": "Please direct all your queries to our Practice Manager, unless you feel your concern needs to be addressed outside the practice, please contact either of the following:",
+    "description": "Patient feedback is encouraged and should be directed to the Practice Manager. We take your concerns, complaints and comments seriously and appreciate your suggestions.  If you feel your issue needs to be addressed outside the practice please contact:",
     "vhsc": "Victorian Health Services Commissioner",
-    "ahpra": "Australian Health Practitioner Regulation Agency"
+    "ahpra": "AHPRA"
   }
 }
