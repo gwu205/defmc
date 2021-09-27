@@ -29,7 +29,7 @@ const Important = ({ t }) => {
           <p className="text-sm">{t("important.content_1")}</p>
           <h4 className="font-bold mt-4 mb-1">
             <a
-              href="https://www.dhhs.vic.gov.au/case-locations-and-outbreaks"
+              href="https://www.hotdoc.com.au"
               target="_blank"
               rel="noreferrer"
             >
