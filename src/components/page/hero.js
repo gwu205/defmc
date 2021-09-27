@@ -20,7 +20,7 @@ const Hero = ({ t, i18n }) => {
           <a
             href="https://www.hotdoc.com.au/medical-centres/doncaster-east-VIC-3109/doncaster-east-family-medical-centre/doctors"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             className="w-max 
             flex items-center 
             font-bold uppercase tracking-widest text-white md:text-green-700

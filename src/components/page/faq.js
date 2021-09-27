@@ -2,6 +2,12 @@ import React from "react"
 import { withTrans } from "../../i18n/withTrans"
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from "react-tabs"
 
+function paragraph(arr) {
+  return arr.map((p) => {
+    return <p>{p}</p>
+  })
+}
+
 function Faq({ t }) {
   resetIdCounter()
 
@@ -19,23 +25,41 @@ function Faq({ t }) {
           <TabPanel>
             <article>
               <h4 className="paragraph-heading">
+                {t("faq.general.appointment_t")}
+              </h4>
+              <p>
+                {t("faq.general.appointment_c1")}
+                <a
+                  href="https://www.hotdoc.com.au/medical-centres/doncaster-east-VIC-3109/doncaster-east-family-medical-centre/doctors"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <strong>HotDoc</strong>
+                </a>
+              </p>
+              <p>{t("faq.general.appointment_c2")}</p>
+            </article>
+            <article>
+              <h4 className="paragraph-heading">
                 {t("faq.general.privacy_t")}
               </h4>
-              {t("faq.general.privacy_c").map((p) => {
-                return <p>{p}</p>
-              })}
+              {paragraph(t("faq.general.privacy_c"))}
             </article>
             <article>
               <h4 className="paragraph-heading">
                 {t("faq.general.reminder_t")}
               </h4>
-              <p>{t("faq.general.reminder_c")}</p>
+              {paragraph(t("faq.general.reminder_c"))}
             </article>
             <article>
               <h4 className="paragraph-heading">{t("faq.general.repeat_t")}</h4>
-              {t("faq.general.repeat_c").map((p) => {
-                return <p>{p}</p>
-              })}
+              {paragraph(t("faq.general.repeat_c"))}
+            </article>
+            <article>
+              <h4 className="paragraph-heading">
+                {t("faq.general.prescription_t")}
+              </h4>
+              {paragraph(t("faq.general.prescription_c"))}
             </article>
             <article>
               <h4 className="paragraph-heading">
@@ -69,11 +93,18 @@ function Faq({ t }) {
               </h4>
               <p>{t("faq.appointments.results_c")}</p>
             </article>
+            <article>
+              <h4 className="paragraph-heading">
+                {t("faq.appointments.phone_t")}
+              </h4>
+              {paragraph(t("faq.appointments.phone_c"))}
+            </article>
           </TabPanel>
           <TabPanel>
             <article>
               <h4 className="paragraph-heading">{t("faq.billing.bulk_t")}</h4>
-              <p>{t("faq.billing.bulk_c")}</p>
+              {/* <p>{t("faq.billing.bulk_c")}</p> */}
+              {paragraph(t("faq.billing.bulk_c"))}
             </article>
             <article>
               <h4 className="paragraph-heading">

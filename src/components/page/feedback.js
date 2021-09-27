@@ -13,19 +13,27 @@ const Feedback = ({ t }) => {
         <div className="w-full sm:w-1/3 pb-8 sm:pb-0">
           <p className="paragraph-heading">{t("feedback.vhsc")}</p>
           <p>
-            Level 30, 570 Bourke Street
+            {t("tel")}: 1300 582 113
             <br />
-            Melbourne 3000
-            <br />
-            {t("tel")}: 8601 5222
+            <a
+              href="https://hcc.vic.gov.au/make-complaint "
+              target="_blank"
+              rel="noreferrer"
+            >
+              hcc.vic.gov.au
+            </a>
           </p>
           <p className="paragraph-heading">{t("feedback.ahpra")}</p>
           <p>
-            Level 8, 111 Bourke Street
+            {t("tel")}: 1300 419 495
             <br />
-            Melbourne 3000
-            <br />
-            {t("tel")}: 1300 419 4950
+            <a
+              href="https://www.ahpra.gov.au/Notifications/Concerned-about-a-health-practitioner.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ahora.gov.au
+            </a>
           </p>
         </div>
         <div className="flex items-end justify-center sm:justify-end w-full sm:w-1/3">

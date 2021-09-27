@@ -17,12 +17,12 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article className="max-w-lg mx-auto px-6">
+        <article className="max-w-xl mx-auto px-6">
           <header>
-            <h1 className="text-5xl font-black mt-8 mb-0">
+            <h1 className="text-4xl font-black mt-8 mb-0">
               {post.frontmatter.title}
             </h1>
-            <p className="text-sm leading-loose mb-8 ">
+            <p className="text-sm leading-loose mb-8 mt-4">
               {post.frontmatter.date}
             </p>
           </header>

@@ -1,6 +1,7 @@
 import React from "react"
 import { withTrans } from "../../i18n/withTrans"
 import TeamCard from "./teamCard"
+import Defmc from "../../../content/assets/defmc"
 
 const Team = ({ t }) => {
   return (
@@ -17,22 +18,28 @@ const Team = ({ t }) => {
         img="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Light"
         name="Dr. Lawrence Wu"
         qualification="MBBS Dp Med Acup"
+        languages={t("chinese")}
       />
       <TeamCard
         img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairBob&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=DarkBrown"
         name="Dr. Rose Thanenthiran"
         qualification="MBBS, FRACGP"
+        languages="Tamil"
       />
       <TeamCard
         img="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
         name="Sathiya Sivanesan"
         qualification="MBBS"
+        languages="Tamil"
       />
-      <TeamCard
+      <div className="flex items-center justify-center bg-primary rounded bg-lightgray">
+        <Defmc className="w-32" />
+      </div>
+      {/* <TeamCard
         img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light"
         name="Ms Francisa Man"
         qualification={t("team.educator")}
-      />
+      /> */}
     </section>
   )
 }
