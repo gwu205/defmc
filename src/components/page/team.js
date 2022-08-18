@@ -1,45 +1,57 @@
 import React from "react"
 import { withTrans } from "../../i18n/withTrans"
+import { Trans } from "react-i18next"
 import TeamCard from "./teamCard"
-import Defmc from "../../../content/assets/defmc"
+import Lawrence from "../../../content/assets/doctor_lawrence.jpg"
+import Sathi from "../../../content/assets/doctor_sathi.jpeg"
+import Rose from "../../../content/assets/doctor_rose.jpeg"
 
 const Team = ({ t }) => {
   return (
-    <section className="section py-24 grid grid-cols-2 grid-rows-1 md:grid-cols-4 md:grid-rows-2 gap-4">
-      <div className="team-content col-span-2 row-span-2 flex justify-center flex-col mb-4 md:mb-0">
+    <section
+      id="team"
+      className="section py-24 grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-5"
+    >
+      <div className="team-content flex justify-center flex-col">
         <h2 className="heading-lg mb-4 text-center md:text-left">
           {t("team.title")}
         </h2>
         {t("team.content").map((p) => {
           return <p>{p}</p>
         })}
+        <p>
+          <Trans i18nKey="team.link">
+            <a
+              href="https://www.hotdoc.com.au/medical-centres/doncaster-east-VIC-3109/doncaster-east-family-medical-centre/doctors"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hotdoc
+            </a>
+          </Trans>
+        </p>
       </div>
       <TeamCard
-        img="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Light"
+        img={Lawrence}
         name="Dr. Lawrence Wu"
         qualification="MBBS Dp Med Acup"
-        languages={t("chinese")}
+        languages={`English, ${t("chinese")}`}
+        bio={t("team.lawrence_bio")}
       />
       <TeamCard
-        img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairBob&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=DarkBrown"
+        img={Rose}
         name="Dr. Rose Thanenthiran"
         qualification="MBBS, FRACGP"
-        languages="Tamil"
+        languages="English, Tamil"
+        bio={t("team.rose_bio")}
       />
       <TeamCard
-        img="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
+        img={Sathi}
         name="Sathiya Sivanesan"
         qualification="MBBS"
-        languages="Tamil"
+        languages="English, Tamil"
+        bio={t("team.sathi_bio")}
       />
-      <div className="flex items-center justify-center bg-primary rounded bg-lightgray">
-        <Defmc className="w-32" />
-      </div>
-      {/* <TeamCard
-        img="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light"
-        name="Ms Francisa Man"
-        qualification={t("team.educator")}
-      /> */}
     </section>
   )
 }
