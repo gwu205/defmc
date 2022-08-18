@@ -12,6 +12,10 @@ main {
   flex-grow: 1;
 }
 
+.navigation a.active {
+  font-weight: bold;
+}
+
 .modal {
   background: rgba(0, 0, 0, 0.3);
   height: 100vh;
@@ -31,6 +35,10 @@ main {
   font-size: 0.75em;
 }
 
+a {
+  cursor: pointer;
+}
+
 a:hover {
   @apply underline opacity-75;
 }
@@ -39,7 +47,8 @@ section article:not(:last-child) {
   @apply mb-8;
 }
 
-article p:not(:last-child) {
+article p:not(:last-child),
+aside p:not(:last-child) {
   @apply mb-2;
 }
 
