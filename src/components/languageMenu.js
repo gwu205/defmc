@@ -11,13 +11,17 @@ const LanguageMenu = (props) => {
     <>
       <button
         onClick={() => changeLanguage("en")}
-        className="mr-4 hover:opacity-75"
+        className={`hover:opacity-75${
+          i18n.language === "en" ? " font-bold" : ""
+        }`}
       >
         English
       </button>
       <button
         onClick={() => changeLanguage("zh-Hant")}
-        className="hover:opacity-75"
+        className={`hover:opacity-75${
+          i18n.language === "zh-Hant" ? " font-bold" : ""
+        }`}
       >
         中文
       </button>

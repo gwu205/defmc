@@ -14,14 +14,12 @@
     "title": "COVID-19 Prevention Measures",
     "content_main": {
       "1": "Face masks are mandatory when attending our clinic.",
-      "2": "If you have a fever or chills or cough, sore throat, shortness of breath, runny nose or loss of sense of smell - please call our staff on 9842-8585 to discuss options for testing if you're unwell.",
+      "2": "If you have a fever or chills or cough, sore throat, shortness of breath, runny nose or loss of sense of smell - please call our staff on 9842-8585 to organise a telephone consult with your doctor.",
       "3": "Do not attend the clinic.",
-      "4": "When you arrive, do not enter the clinic. Remain in your car and call to let us know you are here and we will call you in when it is your turn"
+      "4": "When you arrive, do not enter the clinic. Remain in your car and call to let us know you are here and we will call you in when it is your turn."
     },
-    "content_1_link": "COVID-19 Exposure Sites",
-    "content_1": "Please refer to the DHHS website for current exposure sites and do not attend our clinic if you have visited these locations within the specified time frame or any red zone location, and/or if you are experiencing flu-like symptoms.",
     "content_2_link": "COVID-19 Vaccine",
-    "content_2": "We are NOT one of the allocated clinics giving the vaccine. To find out where you can have yours, please visit the following website: www.hotdoc.com.au and select ‘Book an appointment’. Enter your postcode and age group and a list of clinics will appear and you will be able to book for a Covid vaccine online."
+    "content_2": "We are NOT one of the allocated clinics giving the vaccine. To find out where you can have yours, please click here and select ‘Book an appointment’. Enter your postcode and age group and a list of clinics will appear and you will be able to book for a Covid vaccine online."
   },
   "practice": {
     "title_1": "Personalised healthcare",
@@ -57,18 +55,34 @@
     "title": "Meet the team",
     "content": [
       "All our doctors are experienced in caring for patients of all ages and backgrounds and are highly dedicated to our patients.",
-      "We have multilingual staff and always strive to provide personalised, wholistic, high-quality family medical care for all of our patients, wherever you come from.",
-      "Come visit us! We are committed to providing high quality medical care six days a week from our location on Blackburn Road. Reservations can be made from the link at the top of this page."
+      "We have multilingual staff and always strive to provide personalised, wholistic, high-quality family medical care for all of our patients.",
+      "Come visit us! We are committed to providing high quality medical care six days a week from our location on Blackburn Road."
     ],
-    "educator": "Diabetic Educator"
+    "link": "<0>Appointments can be made from the link here</0>",
+    "lawrence_bio": [
+      "Lawrence is a local Melbourne graduate and has been in General Practice locally for more than 30 years.",
+      "He has special interests in acupuncture, men's health, sports medicine and chronic disease management."
+    ],
+    "rose_bio": [
+      "Rose graduated from University of Ceylon and has been in general practice locally and overseas for more than 30 years.",
+      "She has special interests in geriatrics, mental health & women's health."
+    ],
+    "sathi_bio": [
+      "Sathi has over 18 years of Medical experience ranging from rural/remote medicine to acute trauma medicine, GP Anesthetists and Intensive care (ICU) management.",
+      "When not at work, Sathi enjoys family time as well as following emerging technologies in solar and battery systems to enable more sustainable lifestyle choices."
+    ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "general": {
       "title": "General",
       "appointment_t": "How can I make an appointment to see a doctor?",
-      "appointment_c1": "Consultations are by appointment only. Please ring the surgery on 03 9842 8585 to make an appointment or book online via ",
-      "appointment_c2": "If you need more time with the doctor, such as for an insurance medical (these are out of pocket-not claimable on Medicare), emotional difficulties or a second opinion, please tell the receptionist when you book your appointment as a longer consultation may be required. Please book a separate appointment for each person that needs to be seen",
+      "appointment_link": "Consultations are by appointment only. Please ring the surgery on 03 9842 8585 to make an appointment or <0>book online via HotDoc</0>",
+      "appointment_c": [
+        "Please tell the receptionist the following: your full name, address, date of birth and inform us how many people the consultation is for. We need to allocate a separate appointment time for each person.",
+        "If you need more time with the doctor, such as for an insurance medical (these are out of pocket-not claimable on Medicare), emotional difficulties or a second opinion, please tell the receptionist when you book your appointment as a longer consultation may be required. Please book a separate appointment for each person that needs to be seen.",
+        "Our doctors are committed to being on time. However, emergencies will be seen before booked appointments."
+      ],
       "privacy_t": "What are DEFMC’s privacy laws and policy on medical information management?",
       "privacy_c": [
         "It is our strict policy to maintain the absolute security for all our medical records. We respect that they are conﬁdential documents and none of the information will be accessed by any unauthorised personnel.",
@@ -80,11 +94,11 @@
         "All patients needing follow up treatment are automatically placed onto these recall systems.  Please let your doctor know if you do not wish to participate.",
         "Please respond to all recalls either via phone or letter."
       ],
-      "prescription_t": "How can I receive my electronic prescription information?",
+      "prescription_t": "How can I receive my electronic prescription (eScript) information?",
       "prescription_c": [
-        "As part of our ongoing medical service, DEFMC is very happy to announce that we can now provide your prescription electronically. Your Doctor will be able to SMS or email you a link to a QR or barcode token. This is called an ePrescription, or eScript. Please note that eScripts are only available for patients with a Medicare card (or a DVA card). This new service avoids the need for patients to collect a paper prescription for their medications.",
-        "You must have a smart phone or an email address to receive your eScript. You can have the eScript sent to a family member or friend if you wish. You must provide their phone number or email address during your consultation with your doctor if this is the case.",
-        "We will send your eScript during your consultation. This will come through as link to a QR code that you will provide to your pharmacist."
+        "You can now receive your prescription electronically; this is called an eScript.",
+        "Your doctor can SMS or email you a link which has a QR code. Take this code to any pharmacy of your choice. If there are Repeats on the prescription, the pharmacy will issue you with a new QR code. Please note that eScripts are only available for patients with an IHI number.",
+        "This new service avoids the need for patients to collect a paper prescription for their medications. You must have a smart phone or an email address to receive an eScript. If needed, you can forward the SMS or email to another person, and they can collect the medication on your behalf."
       ],
       "repeat_t": "How do I make repeat prescriptions/referrals?",
       "repeat_c": [
@@ -103,11 +117,11 @@
       "walkin_t": "Does DEFMC cater for walk-ins?",
       "walkin_c": "Walk-ins are catered for as long as we are able to ﬁt you in, but appointments are strongly recommended. Patients with appointments are generally prioritised to be seen before those without an appointment. Please let us know as soon as possible if you are unable to make your appointment - adequate notice for cancellations is much appreciated, both by us and by the other patients.",
       "results_t": "Do I need to make an appointment to discuss test results?",
-      "results_c": "It is a policy of this clinic that no results will be given over the phone. Reception staff are not clinically trained so will not give out any results unless under specific instruction from your Doctor. It is your responsibility to make a follow up appointment to discuss any test results.",
+      "results_c": "An appointment is required to discuss all test results with your doctor. No results will be given over the phone due to privacy laws. Please note that our reception staff are not clinically trained and as such, aren’t legally permitted to discuss results.",
       "phone_t": "Can I speak to a doctor over the phone instead of making an appointment?",
       "phone_c": [
-        "The Doctors are unable to take phone calls during their sessions.  Please explain what you need to the Reception staff and they may be able to help you.  If not, they will pass the message on to the Doctor",
-        "If the doctor deems the call as clinically significant, they will call you back at the soonest possible time. We ask that patients please do not misuse this service and let the receptionist deal with non-clinical queries."
+        "Please explain what you need to the reception staff and a detailed message will be taken. If the doctor deems the call as clinically significant, they will call you back at the soonest possible time.",
+        "We ask that patients please do not misuse this service and let the receptionist deal with non-clinical queries."
       ]
     },
     "billing": {
@@ -130,9 +144,9 @@
   },
   "emergency": {
     "title": "Emergency appointments",
-    "description": "DEFMC have limited spaces during the day for Emergency appointments. Patients should appreciate that the purpose of an emergency appointment is to deal with the immediate problem and is not suitable for managing your routine health and medical issues.",
+    "description": "DEFMC have limited spaces during the day for Emergency appointments. Please respect that the purpose of an emergency appointment is to deal with the immediate problem and is not suitable for managing your routine health and medical issues.",
     "emergency": "Medical Emergencies",
-    "000a": "In cases of extreme emergency, like chest pain, call the ambulance directly on “000”. Otherwise, call the surgery and you will be instructed as to the best course of action to take. ",
+    "000a": "In cases of extreme medical emergency, like chest pain or suspicion of stroke, call “000” immediately. Otherwise, call the surgery and you will be instructed as to the best course of action to take. ",
     "000b": "Please advise our staff if your call is a medical emergency so that you are not put on hold.",
     "gp": "After Hours GPs Clinic (open until 11.30pm nightly)",
     "locum": "Locum Service (24hr service)"
@@ -152,5 +166,10 @@
     "description": "Patient feedback is encouraged and should be directed to the Practice Manager. We take your concerns, complaints and comments seriously and appreciate your suggestions.  If you feel your issue needs to be addressed outside the practice please contact:",
     "vhsc": "Victorian Health Services Commissioner",
     "ahpra": "AHPRA"
+  },
+  "privacy": {
+    "title": "Privacy Laws – Medical Records",
+    "content_1": "Your medical record is a confidential document. No medical information will we accessed by unauthorised personnel. It is the policy of this practice to maintain security of medical records.",
+    "content_2": "Please refrain from sending sensitive personal information to us via email unless the message is encrypted with a password which is sent in a separate email."
   }
 }

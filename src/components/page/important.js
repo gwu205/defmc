@@ -17,26 +17,12 @@ const Important = ({ t }) => {
           <p className="underline">{t("important.content_main.3")}</p>
           <p>{t("important.content_main.4")}</p>
           <hr className="h-px bg-white my-8" />
-          <h4 className="font-bold mb-1">
-            <a
-              href="https://www.dhhs.vic.gov.au/case-locations-and-outbreaks"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {t("important.content_1_link")} ⟶
-            </a>
-          </h4>
-          <p className="text-sm">{t("important.content_1")}</p>
-          <h4 className="font-bold mt-4 mb-1">
-            <a
-              href="https://www.hotdoc.com.au"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a href="https://www.hotdoc.com.au" target="_blank" rel="noreferrer">
+            <h4 className="font-bold mt-4 mb-1">
               {t("important.content_2_link")} ⟶
-            </a>
-          </h4>
-          <p className="text-sm">{t("important.content_2")}</p>
+            </h4>
+            <p className="text-sm">{t("important.content_2")}</p>
+          </a>
         </article>
       </div>
     </section>

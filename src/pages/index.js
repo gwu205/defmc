@@ -25,7 +25,9 @@ class BlogIndex extends React.Component {
         <Modal />
         <News posts={data.allMarkdownRemark.edges} />
         <Important />
-        <PracticeInfo />
+        <section id="services">
+          <PracticeInfo />
+        </section>
         <Team />
         <ImageBlock />
         <Faq />

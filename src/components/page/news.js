@@ -16,25 +16,23 @@ class News extends React.Component {
                 className="flex flex-wrap md:flex-nowrap"
                 key={node.fields.slug}
               >
-                <p className="font-bold w-full text-xs md:text-base md:w-40 pr-4 flex-shrink-0">
-                  {node.frontmatter.date}
-                </p>
-                <div>
-                  <dt className="font-bold">
-                    <Link
-                      className="shadow-none hover:text-primary hover:underline"
-                      to={node.fields.slug}
-                    >
-                      {title}
-                    </Link>
-                  </dt>
-                  <dd
-                    className="text-sm mt-2"
-                    dangerouslySetInnerHTML={{
-                      __html: node.frontmatter.description || node.excerpt,
-                    }}
-                  />
-                </div>
+                <Link
+                  className="shadow-none hover:text-primary hover:underline"
+                  to={node.fields.slug}
+                >
+                  <p className="font-bold w-full text-xs md:text-base md:w-40 pr-4 flex-shrink-0">
+                    {node.frontmatter.date}
+                  </p>
+                  <div>
+                    <dt className="font-bold">{title}</dt>
+                    <dd
+                      className="text-sm mt-2"
+                      dangerouslySetInnerHTML={{
+                        __html: node.frontmatter.description || node.excerpt,
+                      }}
+                    />
+                  </div>
+                </Link>
               </article>
             )
           })}
