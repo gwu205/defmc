@@ -4,12 +4,11 @@ import { Link } from "gatsby"
 import Hero from "../components/page/hero"
 import BlogHeader from "./blog-header"
 import Defmc from "../../content/assets/defmc"
-
-import { rhythm, scale } from "../utils/typography"
+import privacyPolicy from "../../content/assets/privacy_policy.pdf"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children, t, i18n } = this.props
+    const { location, children, t, i18n } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const isRoot = location.pathname === rootPath
     let header
@@ -39,6 +38,10 @@ class Layout extends React.Component {
               </Link>
             )}
             © {new Date().getFullYear()} Doncaster East {t("fmc")}
+            &emsp;|&emsp;{" "}
+            <a href={privacyPolicy} target="_blank" rel="noreferrer">
+              Privacy Policy
+            </a>
           </div>
         </footer>
       </>
