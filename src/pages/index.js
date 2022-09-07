@@ -1,6 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import News from "../components/page/news"
@@ -17,11 +16,11 @@ import Modal from "./modal"
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const pageTitle = "Home"
 
     return (
       <>
-        <SEO title="Doncaster East Family Medical Centre" />
+        <SEO title={pageTitle} />
         <Modal />
         <News posts={data.allMarkdownRemark.edges} />
         <Important />
