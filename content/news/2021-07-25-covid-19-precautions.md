@@ -1,15 +1,14 @@
 ---
 layout: news
-title: Response to COVID-19
-date: 2021-07-25
+title: Response to COVID-19 and Influenza 2022
+date: 2022-09-19T02:09:18.572Z
 ---
+In light of ongoing COVID-19 and Influenza, please be reassured that the highest standards of hygiene and infection control are maintained in our clinic. All patients are requested to stay in their cars until the doctor is ready, so as to reduce time in the waiting room. We allow for adequate social distancing between waiting room chairs. 
 
-In light of the current COVID-19 situation, please be assured that the highest standards of hygiene are maintained in our clinics as always. All patients are requested to stay in their cars until they are ready to be seen so as to reduce their time of stay in the waiting room. We have improved our waiting space to allow for adequate social distancing between waiting patients.
-
-We have introduced telemedicine to anyone who may need be having potential infective symptoms and anyone else who finds it necessary to have remote access consultations.
+We have introduced telephone consults for anyone who has infectious symptoms.
 
 \---
 
-鑑於當前的 COVID-19 情況，請放心我們會一如既往保持最高的衛生標準。 我們會要求全部候診人士留在自己的車內等候，直到醫生准備好然后直接進入房間進行諮詢，以減少他們在候診室的停留時間。 我們亦已經改善了對等待空間的利用，以保証等待患者之間的安全距離。
+鑑於持續發生的 COVID-19 和流感，請放心，我們的診所保持著最高的衛生和感染控制標準。 要求所有患者待在車內，直到醫生準備好，以減少在候診室的時間。 我們允許候診室椅子之間保持足夠的社交距離。
 
-我們已開始提供需要在線諮詢的任何人介紹遠程醫療。
+我們為任何有感染症狀的人引入了電話諮詢
