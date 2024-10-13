@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { withTrans } from "../../i18n/withTrans"
 
 class News extends React.Component {

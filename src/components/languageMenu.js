@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { useTranslation } from "react-i18next"
 
-const LanguageMenu = (props) => {
-  const { t, i18n } = useTranslation()
+const LanguageMenu = () => {
+  const { i18n } = useTranslation()
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng)
   }
