@@ -27,22 +27,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const GA = () => {
-    <>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R2X13BVJLY"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-R2X13BVJLY');
-      </script>
-    </>
-  }
-
   return (
-    <>
-    <GA />
     <Helmet
       htmlAttributes={{
         lang,
@@ -84,7 +69,6 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     />
-    </>
   )
 }
 
