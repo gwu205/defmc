@@ -20,15 +20,6 @@ class BlogIndex extends React.Component {
 
     return (
       <>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-R2X13BVJLY"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-R2X13BVJLY');
-        </script>
         <SEO title={pageTitle} />
         <Modal />
         <News posts={data.allMarkdownRemark.edges} />
