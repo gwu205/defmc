@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, animateScroll as scroll } from "react-scroll"
+import { Link } from "react-scroll"
 import { withTrans } from "../i18n/withTrans"
 import LanguageMenu from "./languageMenu"
 import Defmc from "../../content/assets/defmc"

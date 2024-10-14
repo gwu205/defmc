@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { withTrans } from "../../i18n/withTrans"
 import Header from "../header"
 
-const Hero = ({ t, i18n }) => {
+const Hero = ({ t }) => {
   return (
     <>
       <Header />
